@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp7
+﻿namespace Stripes
 {
     partial class Form1
     {

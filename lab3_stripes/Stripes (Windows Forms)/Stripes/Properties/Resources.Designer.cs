@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp7.Properties
+namespace Stripes.Properties
 {
 
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp7
+namespace Stripes
 {
     public partial class Form1 : Form
     {
