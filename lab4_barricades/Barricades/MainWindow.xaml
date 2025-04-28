@@ -1,0 +1,14 @@
+﻿<Window x:Class="Barricades.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Barricades"
+        mc:Ignorable="d"
+        Title="Заграждения" Height="450" Width="1000">
+    <Grid>
+        <Canvas Name="canvas" MouseDown="canvas_MouseDown">
+            <TextBox Height="433" Canvas.Left="607" TextWrapping="Wrap" Text="Правила игры 'Заграждения': выбирай начальную и конечную точку для отрисовки линии на краях клеток. Твоя линия должна располагаться не более и не менее чем в двух клетках одновременно. Также нельзя рисовать линию в тех клетках, где уже содержится линия. Как только на поле останется одна клетка или несколько клеток, не находящихся рядом, ходы заканчиваются, и выигрывает тот, кто ходил последним." FontSize="22" Width="393" IsEnabled="False" SelectionOpacity="0" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Top="1"/>
+        </Canvas>
+    </Grid>
+</Window>
